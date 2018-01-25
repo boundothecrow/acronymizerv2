@@ -1,0 +1,118 @@
+.App {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: column;
+  width: 100vw;
+  height: 90vh;
+  text-align: center;
+}
+
+
+h1 {
+    font-size: 4em;
+    text-shadow: 0 3px 2px #000;
+    margin-bottom: 0.5em;
+    user-select: none;
+}
+
+p {
+  color: #111;
+}
+
+p:nth-child(2) {
+  font-size: 1.3em;
+  color: #111;
+  margin-bottom: 2em;
+  user-select: none;
+}
+
+input[type=text] {
+    border: none;
+    border-radius: 15px;
+    background: #BBB;
+    color: #111;
+    font-size: 2em;
+    text-align: center;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    box-shadow: 0 2px 7px rgba(0,0,0,0);
+    transition: all 0.1s linear;
+}
+
+input[type=text]:focus {
+  background: #DDE;
+  color: #000;
+  box-shadow: 0 5px 5px #000;
+}
+
+
+::selection {
+  background: #09A;
+}
+
+button {
+  display: block;
+  background: #DDE;
+  border-radius: 10px;
+  border: none;
+  font-size: 2em;
+  padding: 1em;
+  box-shadow: 0 3px 4px inset #000;
+  font-weight: bold;
+}
+
+button:hover {
+  background: #EEF;
+  box-shadow: 0 3px 4px #000;
+}
+
+
+footer {
+  font-size: 0.8em;
+  position: absolute;
+  top: 0;
+  right: 10px;
+}
+
+a {
+  color: #00A;
+}
+
+a:hover {
+  color: #00F;
+}
+/* For FontAwesome stuff */
+i {
+  text-shadow: 0 2px 2px #000;
+  color: #FFF;
+  opacity: 0.7;
+  margin-left: 3px;
+}
+
+#output {
+  margin-top: 2em;
+  background: #DDD;
+  width: 100vw;
+  padding: 3em 1em;
+  box-sizing: border-box;
+  box-shadow: 0 5px 10px #000;
+  font-weight: bold;
+}
+
+#output p {
+  margin: 0;
+  user-select: text;
+}
+
+@media only screen and (max-width: 640px) {
+  body {
+    font-size: 0.7em;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  body {
+    font-size: 0.6em;
+  }
+}
