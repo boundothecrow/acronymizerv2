@@ -2,7 +2,7 @@
   "name": "acronymizer-v2",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/zeechapman/Acronymizer",
+  "homepage": "https://zeechapman.github.com/AcronymizerV2",
   "dependencies": {
     "font-awesome": "^4.7.0",
     "gh-pages": "^1.1.0",
