@@ -1,4 +1,10 @@
-// TODO: More words
+/*
+  ** RULES TO GO BY WHEN ADDING WORDS
+    1. Make sure it is within the correct letter array (don't put J's within the Q's please)
+    2. Words will be automatically all-capitalized.
+    3. To save space, do not leave any spaces between commas.
+    4. Commas must come after every word in quotes.
+*/
 export default {
   "a":["attitude","amazing","apple","astrological","april","august","astounding","artistic","accumulate","assemble","arithmitic","acquire","avenue","apex","a","acronym","astroturfing"],
   "b":["ball","baseball","bored","bat","big","bush","blade","black","blank","bite","blight","burst","blow","bowl","bull","blame","borrowed","bright","bistro","buy","bought"],
