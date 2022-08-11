@@ -1,3 +1,6 @@
+# ⚠️ OLD PROJECT ⚠️
+Created a year after the first version in 2017, and funnily enough the first time I realized I could have updated the old repo instead of creating a new one. Around this time I was made aware of the existance of React and even the world of Node.js and JavaScript libraries. The code here is a little more clean compared to my original attempt thanks to React.
+
 # Acronymizer
 Input your own series of letters and/or words, and have it spit out an acronym, with colorful choice of vocabulary!
 
